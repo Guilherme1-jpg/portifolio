@@ -8,19 +8,15 @@ const MenuHeader = () => {
       <header>
         <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-purple-dark">
           <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-            <a href="https://flowbite.com" class="flex items-center">
-              <img src={Logo} class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
+            <a href="#" class="flex items-center text-white font-bold text-lg">
+              {/* <img src={Logo} class="mr-3 h-6 sm:h-9" alt="" /> */}G
             </a>
             <div class="flex items-center lg:order-2">
               <a href="#">
-                <img
-                  src={LogoEua}
-                  class="mr-3 h-6 sm:h-9"
-                  alt="Flowbite Logo"
-                />
+                <img src={LogoEua} class="mr-3 h-6 sm:h-9" alt="" />
               </a>
               <a href="#">
-                <img src={LogoBr} class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
+                <img src={LogoBr} class="mr-3 h-6 sm:h-9" alt="" />
               </a>
               <button
                 data-collapse-toggle="mobile-menu-2"

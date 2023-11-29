@@ -1,0 +1,16 @@
+.custom-text {
+  margin-top: 3em;
+  display: flex;
+  justify-content: start;
+  margin-left: 12em;
+  text-align: left;
+  font-size: 2em;
+}
+
+.custom-text-paragraph {
+  margin-top: 2em;
+  display: flex;
+  justify-content: start;
+  margin-left: 24em;
+  text-align: left;
+}

@@ -1,6 +1,6 @@
 import Avatar from '../../assets/images/guiAvatar.png'
 import Arrow from '../../assets/svg/seta.svg'
-import Background from '../../assets/svg/Gradient.svg'
+
 import './style.css'
 
 const Banner = () => {
