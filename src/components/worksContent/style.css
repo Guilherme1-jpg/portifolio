@@ -1,0 +1,24 @@
+.custom-bg {
+  background: url('../../assets/svg/Gradient.svg') no-repeat;
+  background-size: contain;
+  filter: brightness(1) opacity(0.75);
+  width: 60%;
+  height: 100%;
+  position: absolute;
+  transform: translate(5%, -25%);
+  z-index: -1;
+}
+
+.bg-custom {
+  background: rgb(19, 4, 40);
+  background: linear-gradient(
+    148deg,
+    rgba(19, 4, 40, 1) 0%,
+    rgba(54, 23, 97, 1) 99%,
+    rgba(105, 59, 147, 1) 100%
+  );
+}
+
+.custom-text {
+  margin-left: 12em;
+}
