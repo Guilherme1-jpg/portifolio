@@ -1,22 +1,40 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.4fce031f.css",
-    "main.js": "/portifolio/static/js/main.9bf15d18.js",
+    "main.css": "/portifolio/static/css/main.c76a944b.css",
+    "main.js": "/portifolio/static/js/main.13c80528.js",
     "static/js/787.cc911e71.chunk.js": "/portifolio/static/js/787.cc911e71.chunk.js",
+    "static/media/express.svg": "/portifolio/static/media/express.5635bbbecb033593f7b1f36978dbde63.svg",
+    "static/media/node.svg": "/portifolio/static/media/node.d35740e157752d1c8ffd7132f13e9d4b.svg",
+    "static/media/mongodb.svg": "/portifolio/static/media/mongodb.b228978ac249656c143feeb265d73b0f.svg",
+    "static/media/kubernetes.svg": "/portifolio/static/media/kubernetes.3219a5bb93130028e4e45f722cbb43d7.svg",
     "static/media/guiAvatar.png": "/portifolio/static/media/guiAvatar.ea57fb01f00993f1fde9.png",
     "static/media/workIcon.png": "/portifolio/static/media/workIcon.cb80ca89fe341ab1b98d.png",
+    "static/media/react.svg": "/portifolio/static/media/react.a5ac540e3713dd406aab27e9d0993992.svg",
     "static/media/logo2.png": "/portifolio/static/media/logo2.52bbf8e2325a72d7abb1.png",
     "static/media/logoEua.png": "/portifolio/static/media/logoEua.e926a47c8090a6b9c494.png",
+    "static/media/html.svg": "/portifolio/static/media/html.ff786b46187c679c698517c7631e171e.svg",
+    "static/media/jest-seeklogo.com.svg": "/portifolio/static/media/jest-seeklogo.com.e9dcfa9e5f40383494277c1078d231d4.svg",
+    "static/media/javascript.svg": "/portifolio/static/media/javascript.2b0c948f08f2770185b8ac5bdca1560c.svg",
+    "static/media/postgresql.svg": "/portifolio/static/media/postgresql.8c99804ab9e57b00b2e8f9c5666e44fd.svg",
+    "static/media/awsLogo.svg": "/portifolio/static/media/awsLogo.88ae6af317c37773d8e1febbe285ee41.svg",
+    "static/media/typescript.svg": "/portifolio/static/media/typescript.f090a10fca21ad4dd6d869b2abe3b432.svg",
+    "static/media/figma.svg": "/portifolio/static/media/figma.f4eb0d6fb43e0ab5a7e76988f3e61198.svg",
     "static/media/logo.svg": "/portifolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/docker.svg": "/portifolio/static/media/docker.197b6cf04af00401288d78b43bfcdfee.svg",
     "static/media/seta.svg": "/portifolio/static/media/seta.8be512c21863eff35aef2b3c9d258e32.svg",
+    "static/media/nestjs.svg": "/portifolio/static/media/nestjs.e4c5baf955cd4986b8a4b4cb9bb95fe0.svg",
+    "static/media/oracle.svg": "/portifolio/static/media/oracle.61dbb1730472557929d8de172f30d365.svg",
+    "static/media/php.svg": "/portifolio/static/media/php.5337514184647397f4525cbd89c3072b.svg",
     "index.html": "/portifolio/index.html",
+    "static/media/prismaOrm.svg": "/portifolio/static/media/prismaOrm.dad98c7b0274d406ae9fc51ab9e5a60d.svg",
     "static/media/Gradient.svg": "/portifolio/static/media/Gradient.c674074f8d47f57ff75f.svg",
-    "main.4fce031f.css.map": "/portifolio/static/css/main.4fce031f.css.map",
-    "main.9bf15d18.js.map": "/portifolio/static/js/main.9bf15d18.js.map",
+    "static/media/vue.svg": "/portifolio/static/media/vue.fe167f71fc6b6cffb1929599d35549e9.svg",
+    "main.c76a944b.css.map": "/portifolio/static/css/main.c76a944b.css.map",
+    "main.13c80528.js.map": "/portifolio/static/js/main.13c80528.js.map",
     "787.cc911e71.chunk.js.map": "/portifolio/static/js/787.cc911e71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fce031f.css",
-    "static/js/main.9bf15d18.js"
+    "static/css/main.c76a944b.css",
+    "static/js/main.13c80528.js"
   ]
 }
