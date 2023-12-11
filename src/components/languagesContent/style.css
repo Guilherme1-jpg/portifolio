@@ -1,0 +1,7 @@
+.custom-text-paragraph {
+  margin-top: 2em;
+  display: flex;
+  justify-content: start;
+  margin-left: 24em;
+  text-align: center;
+}

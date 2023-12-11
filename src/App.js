@@ -4,6 +4,7 @@ import MenuHeader from './components/header'
 import Banner from './components/banner'
 import PresentationContent from './components/presentationContent'
 import WorkContent from './components/worksContent'
+import LanguagesContent from './components/languagesContent'
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
         <Banner />
         <PresentationContent />
         <WorkContent />
+        <LanguagesContent />
+
+        {/* nao vai ficar assim  */}
       </div>
     </>
   )
