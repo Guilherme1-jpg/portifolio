@@ -19,6 +19,17 @@
   );
 }
 
-.custom-text {
+.custom-title {
   margin-left: 12em;
+  font-size: 2em;
+}
+
+@media (min-width: 1200px) {
+  .custom-title {
+    margin-right: 0;
+  }
+
+  .custom-text-paragraph {
+    margin-left: 24em;
+  }
 }

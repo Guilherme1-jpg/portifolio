@@ -4,8 +4,8 @@ import './style.css'
 const WorkContent = () => {
   return (
     <>
-      <div className="text-white custom-text p-5">
-        <h2>Experiencias profissionais</h2>
+      <div className="text-white custom-title flex items-center justify-center md:justify-start p-5">
+        <h2>Experiências Profissionais</h2>
       </div>
       <div className="grid grid-cols-4 grid-rows-2 gap-3 mr-20 ">
         <div className="col-start-2 text-left row-start-1 ">

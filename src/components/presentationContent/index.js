@@ -4,14 +4,13 @@ const PresentationContent = () => {
   return (
     <>
       <div class="grid-cols-4 grid-rows-3 gap-3">
-        {/* <div class="row-span-3 rounded p-5"></div> */}
-        <div class="col-span-2 row-span-2 rounded p-5 ">
-          <h1 className="text-white custom-text">
+        <div class="col-span-2 row-span-2 rounded p-5 flex justify-start">
+          <h1 className="text-white md:text-left custom-text-presentation">
             Sou Desenvolvedor Fullstack. |
           </h1>
         </div>
-        <div class="rounded p-5">
-          <p className="text-white custom-text-paragraph ">
+        <div class="rounded p-5 flex justify-center">
+          <p className="text-white text-left">
             Olá! Sou um desenvolvedor Full Stack com mais de 3 anos de
             experiência, especializado em criar soluções digitais inovadoras.
             <br /> Ao longo da minha carreira, participei ativamente em equipes
@@ -23,7 +22,6 @@ const PresentationContent = () => {
             projetos em que estou envolvido.
           </p>
         </div>
-        {/* <div class="row-start-3 col-start-2 col-span-3 bg-pink-100 rounded p-5"></div> */}
       </div>
     </>
   )

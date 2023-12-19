@@ -1,0 +1,21 @@
+.customsBg {
+  width: 40em;
+  height: 7em;
+  background: rgba(37, 28, 49, 0.516);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 14px;
+
+  color: white;
+}
+
+.gradientCustom {
+  background: url('../../assets/svg/Gradient.svg') no-repeat;
+  background-size: contain;
+  width: 35%;
+  height: 50%;
+  position: absolute;
+
+  transform: translate(102%, -20%);
+  z-index: -1;
+}

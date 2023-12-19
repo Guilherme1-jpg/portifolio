@@ -1,3 +1,4 @@
+import React from 'react'
 import Avatar from '../../assets/images/guiAvatar.png'
 import Arrow from '../../assets/svg/seta.svg'
 
@@ -8,9 +9,9 @@ const Banner = () => {
     <>
       <div className="grid content-start">
         <div className="col-start-2 flex mr-7 mt-16">
-          <img src={Arrow} alt="arrow" className="mt-4" />
+          <img src={Arrow} alt="arrow" className="mt-4 hidden md:block" />
           <h1 className="text-white">
-            Olá, meu nome é <a class="textPurple">Guilherme Henrique</a>
+            Olá, meu nome é <a className="textPurple">Guilherme Henrique</a>
           </h1>
         </div>
       </div>
