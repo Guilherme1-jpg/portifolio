@@ -1,9 +1,9 @@
 .custom-text-presentation {
   margin-top: 3em;
   font-size: 2em;
-  margin-left: 12em;
+  text-align: start;
   display: flex;
-  justify-content: center;
+  margin-right: 40px;
 }
 
 .custom-text-paragraph {

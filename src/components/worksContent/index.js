@@ -1,13 +1,56 @@
+import { Link } from 'react-router-dom'
 import WorkIcon from '../../assets/images/workIcon.png'
 import './style.css'
+import { useState } from 'react'
+import { Tech, Yank, Vik } from '../../utils/texts'
 
 const WorkContent = () => {
+  const [content, setContent] = useState('')
+
+  const handleText = (name) => {
+    switch (name) {
+      case 'tech':
+        setContent(Tech)
+        break
+      case 'yank':
+        setContent(Yank)
+        break
+      case 'vik':
+        setContent(Vik)
+        break
+
+      default:
+        setContent('tech')
+    }
+  }
+
   return (
     <>
-      <div className="text-white custom-title flex items-center justify-center md:justify-start p-5">
-        <h2>Experiências Profissionais</h2>
+      <div className="text-white custom-title flex items-center justify-center md:text-left">
+        <h2 className="">Experiências Profissionais</h2>
       </div>
-      <div className="grid grid-cols-4 grid-rows-2 gap-3 mr-20 ">
+
+      <div className="grid grid-cols-2 grid-rows-1 flex justify-center text-white ">
+        <div className="flex justify-center">
+          <ul>
+            <li className="fromRight" onClick={() => handleText('tech')}>
+              TechKnowLedge Treinamentos
+            </li>
+            <li className="fromRight" onClick={() => handleText('yank')}>
+              Yank! Solutions
+            </li>
+            <li className="fromRight" onClick={() => handleText('vik')}>
+              Vik tech and services
+            </li>
+          </ul>
+
+          <hr className="hrVertical" />
+        </div>
+
+        <div>{content}</div>
+      </div>
+
+      {/* <div className="grid grid-cols-4 grid-rows-2 gap-3  ml-14 ">
         <div className="col-start-2 text-left row-start-1 ">
           <div className="custom-bg"></div>
           <div class="max-w-lg">
@@ -24,9 +67,11 @@ const WorkContent = () => {
                     Desenvolvedor Fullstack, usando javascript.
                   </p>
                   <div>
-                    <button class="mt-4 text-white  px-8 py-2  dark:bg-purple-dark rounded-lg hover:bg-indigo-900">
-                      Veja mais...
-                    </button>
+                    <Link to="/experiences">
+                      <button class="mt-4 text-white  px-8 py-2  dark:bg-purple-dark rounded-lg hover:bg-indigo-900">
+                        Veja mais...
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -46,9 +91,11 @@ const WorkContent = () => {
                     Desenvolvedor Fullstack, usando javascript.
                   </p>
                   <div>
-                    <button class="mt-4 text-white px-8 py-2 bg-indigo-600 hover:bg-indigo-900 rounded-lg dark:bg-purple-dark">
-                      Veja mais...
-                    </button>
+                    <Link to="/experiences">
+                      <button class="mt-4 text-white  px-8 py-2  dark:bg-purple-dark rounded-lg hover:bg-indigo-900">
+                        Veja mais...
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -70,16 +117,18 @@ const WorkContent = () => {
                     Desenvolvedor Fullstack, usando javascript e frameworks
                   </p>
                   <div>
-                    <button class="mt-4 text-white px-8 py-2 rounded-lg dark:bg-purple-dark hover:bg-indigo-900">
-                      Veja mais...
-                    </button>
+                    <Link to="/experiences">
+                      <button class="mt-4 text-white  px-8 py-2  dark:bg-purple-dark rounded-lg hover:bg-indigo-900">
+                        Veja mais...
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }

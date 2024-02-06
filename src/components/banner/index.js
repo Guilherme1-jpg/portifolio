@@ -28,8 +28,9 @@ const Banner = () => {
           <h1 className="text-3xl font-bold text-white underline">
             Desenvolvedor Fullstack
           </h1>
-          <h2 className="text-white mt-4">
-            Amante de javascript e php e vai mais texto aqui
+          <h2 className="text-white mt-4 ">
+            Desenvolvedor FullStack há mais de 4 anos, <br />
+            focado em entregar qualidade e software de mais alta qualidade.
           </h2>
           <div className="drawing-circle">
             <h1 className="text-white mt-8">

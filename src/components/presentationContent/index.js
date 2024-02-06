@@ -3,15 +3,15 @@ import './style.css'
 const PresentationContent = () => {
   return (
     <>
-      <div class="grid-cols-4 grid-rows-3 gap-3">
-        <div class="col-span-2 row-span-2 rounded p-5 flex justify-start">
+      <div class="grid-cols-4 grid-rows-3 gap-3 mt-10">
+        <div class="col-span-2 row-span-2 rounded p-5 flex justify-center mr-5">
           <h1 className="text-white md:text-left custom-text-presentation">
             Sou Desenvolvedor Fullstack. |
           </h1>
         </div>
         <div class="rounded p-5 flex justify-center">
-          <p className="text-white text-left">
-            Olá! Sou um desenvolvedor Full Stack com mais de 3 anos de
+          <p className="text-white text-left ml-20">
+            Olá! Sou um desenvolvedor Full Stack com mais de 4 anos de
             experiência, especializado em criar soluções digitais inovadoras.
             <br /> Ao longo da minha carreira, participei ativamente em equipes
             multidisciplinares, entregando projetos que superaram expectativas.

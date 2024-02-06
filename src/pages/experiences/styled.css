@@ -1,0 +1,21 @@
+.custom-titles {
+  font-size: 30px;
+  color: #9857d3;
+}
+
+.text-description {
+  color: #ccd6f6;
+}
+
+.text-paragraph {
+  color: #ccd6f6;
+}
+
+.glass-paragraph {
+  background: rgba(105, 59, 147, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 10px;
+  padding: 8px;
+}
