@@ -5,7 +5,7 @@ import { useState } from 'react'
 import { Tech, Yank, Vik } from '../../utils/texts'
 
 const WorkContent = () => {
-  const [content, setContent] = useState('')
+  const [content, setContent] = useState(Tech)
 
   const handleText = (name) => {
     switch (name) {
