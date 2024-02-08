@@ -1,8 +1,16 @@
 import Logo from '../../assets/images/logo2.png'
 import LogoEua from '../../assets/images/logoEua.png'
 import LogoBr from '../../assets/images/brasil.png'
+import { useTranslation } from 'react-i18next'
 
 const MenuHeader = () => {
+
+  const { i18n } = useTranslation();
+  const changeLangague = (lng: string) => {
+    i18n.changeLanguage(lng)
+    console.log('chamou !!!')
+  } 
+
   return (
     <>
       <header>
@@ -12,12 +20,12 @@ const MenuHeader = () => {
               {/* <img src={Logo} class="mr-3 h-6 sm:h-9" alt="" /> */}G
             </a>
             <div class="flex items-center lg:order-2">
-              <a href="#">
-                <img src={LogoEua} class="mr-3 h-6 sm:h-9" alt="" />
-              </a>
-              <a href="#">
+              <button onClick={() => changeLangague("en")}>
+                <img src={LogoEua} class="mr-3 h-6 sm:h-9" alt=""  />
+              </button>
+              <button onClick={() => changeLangague("pt")}>
                 <img src={LogoBr} class="mr-3 h-6 sm:h-9" alt="" />
-              </a>
+              </button>
               <button
                 data-collapse-toggle="mobile-menu-2"
                 type="button"
