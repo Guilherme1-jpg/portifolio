@@ -1,22 +1,24 @@
 import Gmail from '../../assets/images/gmail.png'
 import Linkedin from '../../assets/images/linkedin.png'
 import Github from '../../assets/images/github.png'
+import { useTranslation } from 'react-i18next'
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <>
       <div className="flex justify-center items-center mr-20 mt-20">
         <div className="grid grid-cols-2 grid-rows-2 gap-2 p-10 mr-20 mt-20">
           <div className="col-span-3 mt-20">
             <h1 className="text-white mb-3 text-lg text-gray-500 md:text-xl dark:text-white-400 flex justify-start ">
-              Contato
+              {t('Contato')}
             </h1>
           </div>
           <div className="col-span-2 row-start-2">
             <h1 className="text-white text-left">
-              No momento, estou procurando me juntar a uma equipe para agregar{' '}
-              <br /> com os meus conhecimentos e assim construir aplicações de
-              qualidade e eficiência.
+              {('No momento, estou procurando me juntar a uma equipe para agregar')}
+              <br /> {t('com os meus conhecimentos e assim construir aplicações de')}
+              {t('qualidade e eficiência.')}
             </h1>
             <div className="mt-5">
               <ul className="flex flex-wrap items-center justify-start text-gray-900 dark:text-white">

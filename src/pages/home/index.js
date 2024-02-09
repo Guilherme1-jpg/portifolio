@@ -5,6 +5,8 @@ import WorkContent from '../../components/worksContent'
 import LanguagesContent from '../../components/languagesContent'
 import ProjectContent from '../../components/projectContent'
 import Footer from '../../components/footer'
+import VLibras from '@djpfs/react-vlibras'
+
 
 const Home = () => {
   return (
@@ -13,6 +15,7 @@ const Home = () => {
       <Banner />
       <PresentationContent />
       <WorkContent />
+      <VLibras/>
       <LanguagesContent />
       <ProjectContent />
       <Footer />
