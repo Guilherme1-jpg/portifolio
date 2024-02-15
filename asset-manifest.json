@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.74fde629.css",
-    "main.js": "/portifolio/static/js/main.9b73cc8b.js",
+    "main.css": "/portifolio/static/css/main.ea2c9578.css",
+    "main.js": "/portifolio/static/js/main.c18b747d.js",
     "static/js/787.cc911e71.chunk.js": "/portifolio/static/js/787.cc911e71.chunk.js",
     "static/media/awsgif.gif": "/portifolio/static/media/awsgif.693d678f95414d8b7829.gif",
     "static/media/developer.svg": "/portifolio/static/media/developer.ab40b32abcfbc141d8096181d2bc6571.svg",
     "static/media/testing.svg": "/portifolio/static/media/testing.943b06c55e86ac39732ec069546fd9f4.svg",
+    "static/media/Preahvihear-Regular.ttf": "/portifolio/static/media/Preahvihear-Regular.e3743203197eeeb71cf0.ttf",
     "static/media/express.svg": "/portifolio/static/media/express.5635bbbecb033593f7b1f36978dbde63.svg",
     "static/media/node.svg": "/portifolio/static/media/node.d35740e157752d1c8ffd7132f13e9d4b.svg",
     "static/media/mongodb.svg": "/portifolio/static/media/mongodb.b228978ac249656c143feeb265d73b0f.svg",
@@ -32,12 +33,12 @@
     "static/media/prismaOrm.svg": "/portifolio/static/media/prismaOrm.dad98c7b0274d406ae9fc51ab9e5a60d.svg",
     "static/media/Gradient.svg": "/portifolio/static/media/Gradient.c674074f8d47f57ff75f.svg",
     "static/media/vue.svg": "/portifolio/static/media/vue.fe167f71fc6b6cffb1929599d35549e9.svg",
-    "main.74fde629.css.map": "/portifolio/static/css/main.74fde629.css.map",
-    "main.9b73cc8b.js.map": "/portifolio/static/js/main.9b73cc8b.js.map",
+    "main.ea2c9578.css.map": "/portifolio/static/css/main.ea2c9578.css.map",
+    "main.c18b747d.js.map": "/portifolio/static/js/main.c18b747d.js.map",
     "787.cc911e71.chunk.js.map": "/portifolio/static/js/787.cc911e71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74fde629.css",
-    "static/js/main.9b73cc8b.js"
+    "static/css/main.ea2c9578.css",
+    "static/js/main.c18b747d.js"
   ]
 }
