@@ -7,8 +7,8 @@ const Footer = () => {
   const { t } = useTranslation();
   return (
     <>
-      <div className="flex justify-center items-center mr-20 mt-20">
-        <div className="grid grid-cols-2 grid-rows-2 gap-2 p-10 mr-20 mt-20">
+      <div className="flex justify-center items-center ">
+        <div className="grid grid-cols-2 grid-rows-2 gap-2 p-10 mt-10">
           <div className="col-span-3 mt-20">
             <h1 className="text-white mb-3 text-lg text-gray-500 md:text-xl dark:text-white-400 flex justify-start ">
               {t('Contato')}

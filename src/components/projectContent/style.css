@@ -5,7 +5,6 @@
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(20px);
   border-radius: 14px;
-
   color: white;
 }
 
@@ -15,7 +14,7 @@
   width: 35%;
   height: 50%;
   position: absolute;
-
   transform: translate(102%, -20%);
   z-index: -1;
 }
+

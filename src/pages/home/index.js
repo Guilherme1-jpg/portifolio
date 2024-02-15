@@ -6,6 +6,7 @@ import LanguagesContent from '../../components/languagesContent'
 import ProjectContent from '../../components/projectContent'
 import Footer from '../../components/footer'
 import VLibras from '@djpfs/react-vlibras'
+import CodeSamples from '../../components/aboutProject'
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <VLibras/>
       <LanguagesContent />
       <ProjectContent />
+      <CodeSamples/>
       <Footer />
     </>
   )

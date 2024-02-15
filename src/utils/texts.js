@@ -2,6 +2,8 @@ export const Tech = ({ t }) => {
   return (
     <h1>
       <ul>
+        <li>{t("Set 2020 - Ago 2022")}</li>
+        <br/>
         <li>
           {t('Desenvolvimento e manutenção de aplicações WEB, utilizando ReactJs,')}
           <br />
@@ -22,6 +24,8 @@ export const Yank = ({ t }) => {
   return (
     <h1>
       <ul>
+        <li>{t("Ago 2022 - Abr 2023")}</li>
+        <br/>
         <li>{t('Elaboração de protótipos e documentação.')}</li>
         <li>{t('Controle de versionamento Git/Bitbucket.')}</li>
         <li>{t('Contrução e Gerenciamento de ambiente com PM2 e Nginx')}</li>
@@ -42,6 +46,8 @@ export const Vik = ({ t }) => {
   return (
     <h1>
       <ul>
+        <li>{t("Mai 2023 - Nov 2023")}</li>
+        <br/>
         <li>
           {t(
             'Utilização de Nodejs, Typescript, Nestjs, ReactJs, PostgreSql, PrismaORM e javascript.'

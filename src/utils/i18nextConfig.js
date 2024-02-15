@@ -50,12 +50,15 @@ const resources = {
       "Ao longo da minha carreira profissional, adquiri uma sólida experiência em diversas linguagens de programação.": "Throughout my professional career, I have acquired solid experience in various programming languages",
       "Minha jornada no desenvolvimento de software abrange um conjunto diversificado de tecnologias,": "My journey in software development covers a diverse range of technologies,",
       "permitindo-me enfrentar desafios complexos e contribuir para o sucesso de projetos.": "allowing me to face complex challenges and contribute to the success of projects.",
-      "Usando recursos da aws como o rekognition, foi criado uma api para": "Using aws resources such as rekognition, an api was created for",
+      "Usando recursos da aws como o rekognition, foi criado uma api para ": "Using aws resources such as rekognition, an api was created for",
       "analisar imagens e fazer o reconhecimento dos elementos da cena.": "analyzing images and recognizing scene elements.",
       "Contato": "Contact",
       "No momento, estou procurando me juntar a uma equipe para agregar":"At the moment, I'm looking to join a team to add",
       "com os meus conhecimentos e assim construir aplicações de": "with my knowledge and thus build",
       "qualidade e eficiência.": "quality and efficiency.",
+      "Set 2020 - Ago 2022": "Sep 2020 - Aug 2022",
+      "Ago 2022 - Abr 2023": "Aug 2022 - Apr 2023",
+      "Mai 2023 - Nov 2023": "May 2023 - Nov 2023"
     },
   },
 
@@ -105,12 +108,15 @@ const resources = {
       "Ao longo da minha carreira profissional, adquiri uma sólida experiência em diversas linguagens de programação.": "Ao longo da minha carreira profissional, adquiri uma sólida experiência em diversas linguagens de programação.",
      "Minha jornada no desenvolvimento de software abrange um conjunto diversificado de tecnologias," : "Minha jornada no desenvolvimento de software abrange um conjunto diversificado de tecnologias,",
       "permitindo-me enfrentar desafios complexos e contribuir para o sucesso de projetos.": "permitindo-me enfrentar desafios complexos e contribuir para o sucesso de projetos.",
-      "Usando recursos da aws como o rekognition, foi criado uma api para": "Usando recursos da aws como o rekognition, foi criado uma api para",
+      "Usando recursos da aws como o rekognition, foi criado uma api para ": "Usando recursos da aws como o rekognition, foi criado uma api para ",
       "analisar imagens e fazer o reconhecimento dos elementos da cena.": "analisar imagens e fazer o reconhecimento dos elementos da cena.",
       "Contato": "Contato",
       "No momento, estou procurando me juntar a uma equipe para agregar": "No momento, estou procurando me juntar a uma equipe para agregar",
       "com os meus conhecimentos e assim construir aplicações de": "com os meus conhecimentos e assim construir aplicações de",
       "qualidade e eficiência.": "qualidade e eficiência.",
+      "Set 2020 - Ago 2022": "Set 2020 - Ago 2022",
+      "Ago 2022 - Abr 2023": "Ago 2022 - Abr 2023",
+      "Mai 2023 - Nov 2023":  "Mai 2023 - Nov 2023",
     }
   }
 };

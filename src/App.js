@@ -6,7 +6,10 @@ import './utils/i18nextConfig'
 function App() {
   return (
     <>
-      <RoutesPages />
+    <div className='App'>
+    <RoutesPages />
+    </div>
+      
     </>
   )
 }

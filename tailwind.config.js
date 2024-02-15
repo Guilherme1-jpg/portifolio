@@ -9,6 +9,7 @@ module.exports = {
     },
     fontFamily: {
       plus: ['plus-jakart-sans'],
+      'preahvihear': ['Preahvihear', 'sans-serif'],
     },
   },
   plugins: [],
